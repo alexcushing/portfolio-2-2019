@@ -16,7 +16,7 @@ const App = () => (
         Alex Cushing
         </h1>
       <h3 className='App-subtitle'>
-        Front-End Developer at <a className='App-subtitle-link link' href='https://fantasypros.com' target='_blank'>FantasyPros</a>
+        Front-End Developer at <a className='App-subtitle-link link' href='https://www.fantasypros.com' target='_blank'>FantasyPros</a>
       </h3>
       <h4 className='App-subtitle App-subtitle-date'>
         February 2019 - Present
