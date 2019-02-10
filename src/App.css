@@ -1,32 +1,119 @@
 .App {
-  text-align: center;
+  padding: 32px;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.App-title {
+  cursor: default;
+  color: #0d2863;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-subtitle {
+  cursor: default;
+  color: #7267e6;
+}
+
+.App-subtitle-alt {
+  cursor: default;
+  color: #24aef2;
+}
+
+.App-subtitle-link {
+  color: #7267e6;
+}
+
+.App-subtitle-date {
+  padding: 0 16px;
+  color: #aca9d8;
+}
+
+.App-subtitle-link:hover {
+  border-bottom: solid 2px #7267e6;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.App-prev-section {
+  background: #fff;
+  /* color: #f2f6fa; */
+}
+
+.App-prev {
+  color: #24aef2;
+}
+
+.App-prev-link {
+  color: #24aef2;
+}
+
+.App-prev-date {
+  padding: 0 16px;
+  color: #84aabc;
+}
+
+.App-prev-link:hover {
+  border-bottom: solid 2px #24aef2;
+}
+
+.App-img {
+  /* border-radius: 16px; */
+  width: 200px;
+  -webkit-filter: drop-shadow(2px 3px 15px #c6cbce);
+  filter: drop-shadow(2px 3px 15px #c6cbce);
+}
+
+.App-subsection {
+  background: white;
+  width: 100%;
+}
+
+.App-subsection-inner {
+  padding: 64px 32px 16px;
+  margin: -64px auto 0;
+  max-width: 1080px;
+}
+
+.App-bottom {
+  background: #202d4a;
+  padding: 32px 0;
+}
+.App-bottom-content {
+  max-width: 1080px;
+  padding: 0 32px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #84aabc;
 }
 
-.App-link {
-  color: #61dafb;
+.App-bottom-text,
+.App-bottom-link {
+  margin: 4px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App-bottom-link-text {
+  color: #84aabc;
+}
+
+.App-bottom-link-text:hover {
+  border-bottom: solid 1px #84aabc;
+}
+
+.App-bottom-text {
+
+}
+
+@media only screen and (max-width: 600px) {
+  .App-img {
+    margin: 0 auto;
+    display: flex;
   }
-  to {
-    transform: rotate(360deg);
+  .App-title,
+  .App-subtitle,
+  .App-subtitle-alt {
+    text-align: center;
   }
 }

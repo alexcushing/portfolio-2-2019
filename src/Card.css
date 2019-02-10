@@ -1,0 +1,38 @@
+.Card {
+  padding: 24px;
+  width: 500px;
+  color: #84aabc;
+}
+
+.Card-selected {
+  margin: 24px 0;
+}
+.Card-selected,
+.Card:hover {
+  cursor: pointer;
+  background: #f2f6fa;
+  border-radius: 16px;
+}
+
+.Card-languages {
+  display: flex;
+  padding: 0 16px;
+}
+
+.Card-language {
+  padding-right: 6px;
+}
+
+.Card-blurb {
+  padding: 8px 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Card {
+    text-align: center;
+    width: auto;
+  }
+  .Card-blurb {
+    text-align: left;
+  }
+}
