@@ -10,7 +10,7 @@ const PutBlurb1 = "Created internal iOS applications for different teams within 
 const PutBlurb2 = "Worked in web and software development creating interfaces for data manipulation, python cycles for automating work tasks, ETL jobs, and more.";
 
 const App = () => (
-  <>
+  <div className="App-container">
     <div className="App">
       <h1 className='App-title'>
         Alex Cushing
@@ -90,7 +90,7 @@ const App = () => (
         <h5 className='App-bottom-text'>alexandercushing@gmail.com</h5>
       </div>
     </div>
-  </>
+  </div>
 );
 
 export default App;

@@ -2,6 +2,8 @@
   padding: 32px;
   max-width: 1080px;
   margin: 0 auto;
+  margin-bottom: -78px;
+  width: 100%;
 }
 
 .App-title {
@@ -71,13 +73,14 @@
 }
 
 .App-subsection-inner {
-  padding: 64px 32px 16px;
-  margin: -64px auto 0;
+  padding: 78px 32px 16px;
+  margin: 0 auto;
   max-width: 1080px;
 }
 
 .App-bottom {
   background: #202d4a;
+  flex: 1;
   padding: 32px 0;
 }
 .App-bottom-content {
@@ -102,8 +105,10 @@
   border-bottom: solid 1px #84aabc;
 }
 
-.App-bottom-text {
-
+.App-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 600px) {
